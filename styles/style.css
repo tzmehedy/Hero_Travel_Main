@@ -41,13 +41,67 @@ nav {
 .navigation_list li a {
   text-decoration: none;
 }
+.banner_container {
+  margin: 20px;
+  padding: 6rem 1rem;
+  height: auto;
+  width: 100%;
+  background-image: url("../images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.banner_container_title {
+  color: #fff;
+  font-size: 3rem;
+}
+.banner_container_text {
+  color: #fff;
+}
+.input_container {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 20px;
+}
+.banner_container input {
+  height: 2em;
+  border: none;
+  border-radius: 8px;
+  text-align: start;
+  padding: 5px;
+  margin: 5px;
+}
 
-
+.primary_btn {
+  background-color: #ff5400;
+  height: 40px;
+  width: 120px;
+  border: 0;
+  border-radius: 8px;
+}
 
 /* media query for mobile device */
 
 @media screen and (max-width: 576px) {
+  * {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
   nav {
     display: block;
+  }
+  .navigation_list li {
+    margin: 2px;
+  }
+  .banner_container input {
+    display: block;
+  }
+  .banner_container{
+    width:80%;
+  }
+  .input_container{
+    display: flex;
+    flex-direction: column;
   }
 }
