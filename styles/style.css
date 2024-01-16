@@ -79,6 +79,24 @@ nav {
   border: 0;
   border-radius: 8px;
 }
+.pupular_section_container{
+    display: flex;
+    margin-left: 40px;
+    
+}
+.pupular_section_container div{
+    width: 50%;
+    margin: 1em;
+}
+.pupular_section_container_img{
+    width: 100%;
+}
+.pupular_section_container_text{
+    text-align: justify;
+}
+.pupular_section_container_text{
+    text-align: start;
+}
 
 /* media query for mobile device */
 
