@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
 
- *{
+* {
   max-width: 800px;
   text-align: center;
   margin: 0 auto;
@@ -13,32 +13,41 @@ nav {
   display: flex;
 }
 #header_img {
-    height: 3em;
-    width: 4em;
+  height: 3em;
+  width: 4em;
 }
 #header_title {
   display: flex;
 }
-#header_text_travel{
-    color: #FF5400;
+#header_text_travel {
+  color: #ff5400;
 }
-#header_text{
-    display: flex;
-    align-items: center;
-    
+#header_text {
+  display: flex;
+  align-items: center;
 }
-.navigation_list_container{
-    display: flex;
-    align-items: center;
+.navigation_list_container {
+  display: flex;
+  align-items: center;
 }
 
-.navigation_list{
-    list-style:none;
-    display: flex;
+.navigation_list {
+  list-style: none;
+  display: flex;
 }
-.navigation_list li{
-    margin-right: 20px;
+.navigation_list li {
+  margin-right: 20px;
 }
-.navigation_list li a{
-    text-decoration: none;
+.navigation_list li a {
+  text-decoration: none;
+}
+
+
+
+/* media query for mobile device */
+
+@media screen and (max-width: 576px) {
+  nav {
+    display: block;
+  }
 }
