@@ -80,6 +80,7 @@ nav {
   border-radius: 8px;
 }
 .pupular_section_container{
+    text-align: center;
     display: flex;
     margin-left: 40px;
     
@@ -93,6 +94,44 @@ nav {
 }
 .pupular_section_container_text{
     text-align: justify;
+}
+.chose_your_destination_container{
+    text-align: center;
+    margin-top: 30px;
+}
+.maldiv_indonesia_container{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 1rem;
+    margin-top: 20px;
+}
+.maldiv_indonesia_container_img{
+    width: 100%;
+}
+/* .over_write_design{
+    margin:-100px;
+    color: #fff;
+} */
+.srilanka_north_kashmir_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+    
+}
+.srilanka_north_kashmir_container_img{
+    width:100%;
+    height: 100%;
+}
+.bangladesh_bandorban_container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap:1rem;
+}
+
+.bangladesh_bandorban_container img{
+  width: 100%;
 }
 
 
