@@ -167,6 +167,81 @@ nav {
   text-align: start;
   background-color: rgba(233, 68, 68, 0.05);
 }
+.deals_discount_container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.satorini_container_1{
+  position: relative;
+  
+}
+.satorini_container_2{
+  position: relative;
+}
+.satorini_container_3{
+  position: relative;
+  
+}
+.satorini_container_design{
+  text-align: start;
+  padding: 10px;
+  background-color: #fff;
+  height: 200px;
+  width: 400px;
+  position:absolute;
+  top: 50px;
+  right: 80px;
+  border-radius: 8px;
+}
+.satorini_container_img{
+  width: 100%;
+}
+.satorini_container_design_2{
+  text-align: start;
+  padding: 10px;
+  background-color: #fff;
+  height: 200px;
+  width: 400px;
+  position:absolute;
+  top: 50px;
+  left: 80px;
+  border-radius: 8px;
+}
+.perfect_place_container{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.perfect_place_container div{
+  width: 50%;
+}
+.perfect_place_container img{
+  width: 100%;
+}
+.newsletter_container{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.newsletter_container div{
+  width: 50%;
+}
+.newsletter_container img{
+  width: 100%;
+}
+
+.newsletter_container input{
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.newsletter_container_text{
+  border: 1px solid #FF5400;
+  border-radius: 8px;
+}
+
+
 
 
 
@@ -215,4 +290,11 @@ nav {
     padding: 10px;
     margin-bottom: 10px;
   }
+  .perfect_place_container{
+    display: block;
+  }
+  
+
+
+  
 }
