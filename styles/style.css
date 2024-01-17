@@ -240,6 +240,22 @@ nav {
   border: 1px solid #FF5400;
   border-radius: 8px;
 }
+.footer_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(19, 19, 24, 0.05);
+}
+.footer_image{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_image img{
+  height: 30px;
+  width: 30px;
+}
 
 
 
@@ -291,6 +307,9 @@ nav {
     margin-bottom: 10px;
   }
   .perfect_place_container{
+    display: block;
+  }
+  .newsletter_container{
     display: block;
   }
   
